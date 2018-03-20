@@ -14,6 +14,7 @@ spring-social-facebook 을 모방하여 만든 kakao api 호출을 위한 librar
 ------------------------------------------------------
 - KakaoProfile에 kaccount_email, kaccount_email_verified 필드 추가
 - UserProfile에 kaccount_email을 활용하여 email 정보 세팅
+- KakaoConnectionFactory 생성자에 clientSecret을 받을 수 있도록 추가 
 - 버전 넘버링 1.0.0 에서 1.1.0으로 변경
 
 2015.02.12
