@@ -10,6 +10,12 @@ spring-social-facebook 을 모방하여 만든 kakao api 호출을 위한 librar
 - <s>프로젝트가 MS949 인코딩으로 생성되었음. UTF-8으로의 변경 필요</s> clear
 - [<s>Authorization: KakaoAK {adminKey} 400 에러에 의해 기능 사용불가 버그(admin key를 사용하는 모든 API)</s>](https://github.com/bongki/spring-social-kakao/issues/1) clear
 
+2019.08.26
+------------------------------------------------------
+- 사용자 정보 요청 API 버전 변경 (v1 -> v2)
+- 사용자 정보 요청 API 응답 객체 변경 (KakakProfile < KakaoAccount 추가)
+- 카카오 닉네임에 이모지(emoji) 포함되어 있으면 제거
+
 2018.03.20
 ------------------------------------------------------
 - KakaoProfile에 kaccount_email, kaccount_email_verified 필드 추가
